@@ -3,5 +3,4 @@ const botao = document.getElementById('btn-url')
 
 
 botao.addEventListener('click',(evt)=>{
-window.location.assign('https://www.xvideos.com/home/br')
-})
+window.location = url.value})
