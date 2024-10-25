@@ -41,3 +41,31 @@ button{
     font-weight: bolder;
 
 }
+
+@media(max: 480px) {
+    body{
+        font-size: 16px;
+    }
+
+
+    button{
+        padding: 10px;
+        border-radius: 30px;
+        width: 100px;
+        cursor: pointer;
+        background-color: rgb(29, 201, 29);
+        color: rgb(252, 237, 237);
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+
+
+    
+input[type="url"]{
+    padding: 10px;
+    width: 98%;
+    border-radius: 20px;
+}
+
+}
